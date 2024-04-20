@@ -1,0 +1,24 @@
+.hpage-bandt {
+    position: absolute;
+    z-index: 2;
+    left: 7%;
+    top: 20%;
+    animation: slideInRight 1.5s ease-out forwards;
+}
+
+.hpage-bandt__text {
+    color: white;
+    font-weight: 900;
+    font-size: 120px;
+    line-height: 108%;
+    text-transform: uppercase;
+}
+
+.hpage-bandt__button {
+    margin-top: 40px;
+    width: 271px;
+    height: 82px;
+    border-radius: 211px;
+    @extend %button;
+}
+
